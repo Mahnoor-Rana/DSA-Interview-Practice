@@ -8,13 +8,31 @@ void NegativeEle(int arr[], int n){
 			if(i != j){
 				swap(arr[i],arr[j]);
 			}
-			j--;
+			j++;
 		}
 		
 	}
 for(int i =0;i<n;i++){
 	cout<<arr[i];
 }
+	
+	
+	
+/*	int r;
+	for(int i=1;i<=n;i--){
+		for(int j =0; j<=n;j++){
+			if(arr[i]>arr[j]){
+				start = arr[i];
+			}
+			if(arr[i]<arr[j]){
+				end = arr[j];
+				arr[j] = arr[i];
+			}
+			
+			
+		}
+		cout<<"All negative values are on one side of the array"<<arr[i]<<endl;
+	}*/
 }
 int main(){
 	int arr[] = {3,-2,4,-5};
