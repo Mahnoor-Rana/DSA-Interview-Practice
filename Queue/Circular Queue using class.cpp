@@ -25,8 +25,6 @@ class CircularQueue{
 		arr[end]= ele;
 		return true;
 	}
-
-
 int dequeue(){
 	if(front==-1){
 		cout<<"Queue is Empty"<<endl;
